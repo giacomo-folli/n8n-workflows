@@ -1,63 +1,33 @@
-# 🧠 n8n Workflow Collection
+# 🧠 Welcome to the n8n Workflow Collection!
+[![Workflows](https://img.shields.io/badge/Workflows-200+-blue)](https://github.com/n8n-io/n8n-workflows)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/n8n-io/n8n-workflows/blob/HEAD/LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/n8n-io/n8n-workflows/graphs/commit-activity)
 
-This repository contains a collection of **n8n workflows** gathered from multiple sources, including:
+This repository contains a diverse collection of n8n workflows gathered from various sources. These workflows are intended to provide inspiration, learning opportunities, and reusable components for your own n8n projects.
 
-* Workflows exported from the [n8n.io](https://n8n.io) website and community forum
-* Publicly shared examples found across the web (GitHub, blogs, etc.)
+## Table of Contents
 
-The goal is to provide a useful resource for inspiration, learning, and reuse in your own n8n projects.
+*   [Social Media Automation](#social-media-automation)
+*   [CRM](#crm)
+*   [Communication](#communication)
+*   [General Purpose](#general-purpose)
+*   [Task Management](#task-management)
+*   [Integrations](#integrations)
+*   [Data Management & Processing](#data-management--processing)
+*   [AI & Automation](#ai--automation)
+*   [Calendar Automation](#calendar-automation)
+*   [Utility & Tools](#utility--tools)
+*   [Specialized Workflows](#specialized-workflows)
+*   [Standup Bot Workflows](#standup-bot-workflows)
 
----
+**Important Disclaimer:**
 
-## 📂 Folder Structure
+Please be aware that all workflows in this collection are provided "as-is". It is crucial to personally review and test each workflow in a safe environment before implementing it in a production setting. Ensure that you understand the workflow's functionality and dependencies, and modify credentials or webhook URLs as needed.
 
-* Each `.json` file represents a single exported workflow.
-* Files are named either based on their original title or source.
-* You may also find `.txt` files that were converted into `.json` (see below).
+For a detailed list of available workflows, please check out [WORKFLOWS.md](WORKFLOWS.md). We encourage you to explore the collection and contribute your own workflows to help expand this valuable resource!
 
----
 
-## 🔄 TXT to JSON Conversion
+## Contribute
 
-Some workflows were originally saved as `.txt` files or copied from online sources. A script was used to:
-
-* Detect `.txt` files
-* Attempt to parse them as JSON or structured key-value pairs
-* Convert them to valid `.json` format
-
-If you’re looking to run the conversion yourself, check out `convert_txt_to_json.py` included in this repo.
-
----
-
-## 🛠 Usage Instructions
-
-To import a workflow into your own n8n instance:
-
-1. Open your [n8n Editor UI](https://docs.n8n.io/hosting/editor-ui/)
-2. Click on the **menu** (☰) in the top right → `Import workflow`
-3. Choose a `.json` file from this folder
-4. Click "Import" to load the workflow
-
-Make sure to review and modify credentials or webhook URLs as needed before running.
-
----
-
-## 🤝 Contribution
-
-Found a cool workflow or created your own?
-Feel free to contribute by adding it to this collection!
-
-Just make sure to:
-
-* Name the file descriptively
-* Include a short comment at the top with the original source if applicable
-
----
-
-## ⚠️ Disclaimer
-
-All workflows here are shared **as-is**.
-Always inspect and test them in a safe environment before using them in production.
-
----
+We welcome contributions to this workflow collection! If you have a workflow you'd like to share, please submit a pull request.
 
